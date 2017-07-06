@@ -26,7 +26,7 @@ a.lend {
   background: #FF7676;
   text-decoration: none;
   line-height: 45px;
-  width: 150px;
+  width: 200px;
   box-sizing: border-box;
   text-align: center;
   margin: auto;
@@ -59,4 +59,5 @@ a.lend {
   margin-left: auto;
   margin-right: auto;
   background-color: #242945;
+  min-height:270px;
 }

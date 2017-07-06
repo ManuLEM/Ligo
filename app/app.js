@@ -12,8 +12,16 @@ app.config(['$routeProvider', function ($routeProvider) {
     templateUrl: './app/templates/data.html',
     controller: 'homeController'
   }).
-  when('/lending', {
-    templateUrl: './app/templates/lending.html'
+  when('/lending1', {
+    templateUrl: './app/templates/lending1.html'
+  }).
+  when('/lending2', {
+    templateUrl: './app/templates/lending2.html',
+    controller: 'homeController'
+  }).
+  when('/pay', {
+    templateUrl: './app/templates/pay.html',
+    controller: 'homeController'
   }).
   otherwise({
     redirectTo: '/'

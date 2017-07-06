@@ -2,10 +2,11 @@
   <body>
     <div class="image">
       <img width="100%" left="50%" src="./assets/img/data_view.png" usemap="#mapname"/>
-      <a class="link" href="./#!/lending" style="top: 5vh;left: 14vh;width: 21vh;height: 7vh;"></a>
-      <a class="link" href="./#!/lending" style="top: 5vh;left: 42vh;width: 23vh;height: 7vh;"></a>
-      <a href="#" class="lend">Lend now</a>
-      <rate-evolution class="trend" ng-if="transactions" ng-model="transactions"></rate-evolution>
+      <a class="link" href="./#!/pay" style="top: 3%;left: 45%;width: 35%;height: 7%;"></a>
+      <a href="./#!/lending1" class="lend">Commencer à prêter</a>
+      <div class="trend" >
+        <rate-evolution ng-if="transactions" ng-model="transactions"></rate-evolution>
+      </div>
     </div>
   </body>
 </html>
