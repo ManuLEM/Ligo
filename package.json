@@ -1,0 +1,16 @@
+{
+  "name": "Ligo",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Claire",
+  "private": true,
+  "main": "server.js",
+  "scripts": {},
+  "dependencies": {
+    "bower": "^1.8.0",
+    "http-server": "^0.10.0"
+  },
+  "script": {
+    "start": "http-server"
+  }
+}
