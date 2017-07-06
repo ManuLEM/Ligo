@@ -8,44 +8,53 @@ app.directive('rateEvolution', function(){
       transactions: '='
     },
     link: function(scope, elem){
+      scope.transactions = scope.transactions.filter(function(elem){
+        console.log(moment(elem.details.completed), moment().startOf('day').add(11, 'hours'));
+        return moment(elem.details.completed).isAfter(moment().startOf('day').add(11, 'hours'))
+      });
       console.log(scope.transactions);
+      var ceil = 0;
+      scope.transactions.forEach(function(elem){
+        ceil = Math.max(ceil, parseInt(elem.details.new_balance.amount) + 100)
+      });
+      var data = scope.transactions.map(function(elem){
+        return {
+          y: Math.round((ceil - parseInt(elem.details.new_balance.amount))/ceil*300, 2) / 100,
+          x: moment(elem.details.completed).unix()
+        }
+      })
+      .sort(function(a,b){
+        if (a.x > b.x) return 1;
+        if (a.x < b.x) return -1;
+        return 0;
+      });
       var options = {
         title: {
-          text: 'Solar Employment Growth by Sector, 2010-2016'
-        },
-        subtitle: {
-          text: 'Source: thesolarfoundation.com'
-        },
-        yAxis: {
-          title: {
-            text: 'Number of Employees'
-          }
+          text: null
         },
         legend: {
-          layout: 'vertical',
-          align: 'right',
-          verticalAlign: 'middle'
+          enabled: false
         },
-        plotOptions: {
-          series: {
-            pointStart: 2010
-          }
+        xAxis: {
+          visible: false
+        },
+        yAxis: {
+          visible: false
         },
         series: [{
-          name: 'Installation',
-          data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
-        }, {
-          name: 'Manufacturing',
-          data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
-        }, {
-          name: 'Sales & Distribution',
-          data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
-        }, {
-          name: 'Project Development',
-          data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
-        }, {
+          dataGrouping: {
+            smoothed: true,
+            forced: true,
+            approximation: 'average'
+          },
+          type: 'areaspline',
+          marker: {
+            enabled:false
+          },
           name: 'Other',
-          data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
+          data: data,
+          lineColor: '#7FCFDC',
+          fillColor: '#3F496C'
         }]
       };
       Highcharts.chart('chart', options)

@@ -19,6 +19,7 @@
     "angular": "^1.6.5",
     "angular-route": "^1.6.5",
     "jquery": "^3.2.1",
-    "highcharts": "^5.0.12"
+    "highcharts": "^5.0.12",
+    "moment": "momentjs#^2.18.1"
   }
 }

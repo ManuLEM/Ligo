@@ -1,92 +1,3204 @@
 {
-  "transactions": [
-    {
-      "id":"8ca8a7e4-6d02-48e3-a029-0b2bf89de9f0",
-      "label":"NoneLabel",
-      "number":"123",
-      "owners":[{
-        "id":"5995d6a2-01b3-423c-a173-5481df49bdaf",
-        "provider":"OBP",
-        "display_name":"OBP"
-      }],
-      "type":"OBP",
-      "balance":{
-        "currency":"EUR",
-        "amount":"10"
-      },
-      "IBAN":"GR1301720530005053000582373",
-      "swift_bic":"UKTF3049auf",
-      "bank_id":"gh.29.uk",
-      "account_routing":{
-        "scheme":"IBAN",
-        "address":"DE89 3704 0044 0532 0130 00"
-      }
-    },
-    {
-      "id":"8ca8a7e4-6d02-48e3-a029-0b2bf89de9f0",
-      "label":"NoneLabel",
-      "number":"123",
-      "owners":[{
-        "id":"5995d6a2-01b3-423c-a173-5481df49bdaf",
-        "provider":"OBP",
-        "display_name":"OBP"
-      }],
-      "type":"OBP",
-      "balance":{
-        "currency":"EUR",
-        "amount":"10"
-      },
-      "IBAN":"GR1301720530005053000582373",
-      "swift_bic":"UKTF3049auf",
-      "bank_id":"gh.29.uk",
-      "account_routing":{
-        "scheme":"IBAN",
-        "address":"DE89 3704 0044 0532 0130 00"
-      }
-    },
-    {
-      "id":"8ca8a7e4-6d02-48e3-a029-0b2bf89de9f0",
-      "label":"NoneLabel",
-      "number":"123",
-      "owners":[{
-        "id":"5995d6a2-01b3-423c-a173-5481df49bdaf",
-        "provider":"OBP",
-        "display_name":"OBP"
-      }],
-      "type":"OBP",
-      "balance":{
-        "currency":"EUR",
-        "amount":"10"
-      },
-      "IBAN":"GR1301720530005053000582373",
-      "swift_bic":"UKTF3049auf",
-      "bank_id":"gh.29.uk",
-      "account_routing":{
-        "scheme":"IBAN",
-        "address":"DE89 3704 0044 0532 0130 00"
-      }
-    },
-    {
-      "id":"8ca8a7e4-6d02-48e3-a029-0b2bf89de9f0",
-      "label":"NoneLabel",
-      "number":"123",
-      "owners":[{
-        "id":"5995d6a2-01b3-423c-a173-5481df49bdaf",
-        "provider":"OBP",
-        "display_name":"OBP"
-      }],
-      "type":"OBP",
-      "balance":{
-        "currency":"EUR",
-        "amount":"10"
-      },
-      "IBAN":"GR1301720530005053000582373",
-      "swift_bic":"UKTF3049auf",
-      "bank_id":"gh.29.uk",
-      "account_routing":{
-        "scheme":"IBAN",
-        "address":"DE89 3704 0044 0532 0130 00"
-      }
-    }
-  ]
+    "transactions": [
+        {
+            "id": "51325a81-af18-4a4d-8731-684b74b188ea",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "ce0bb4d5-9168-4f6e-a628-aa048abd1f9c",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_66D4A4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T10:01:16Z",
+                "completed": "2017-07-06T10:01:16Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4526.90"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "12.97"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "39b24861-e133-40fa-8e0e-87154d47f8c4",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "7c18a941-8a69-470a-911e-1385ef062b85",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_36EBC4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T10:01:16Z",
+                "completed": "2017-07-06T10:01:16Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4532.88"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "18.95"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "a0a66581-d59d-4f5c-82f3-2aa3e956c9e5",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "eea57d68-b0ef-4ed6-b768-13195eef8b26",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_C35149",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T10:01:11Z",
+                "completed": "2017-07-06T10:01:11Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4513.93"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-31.95"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "56998aad-f609-4065-82a6-4d2e01e0b848",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T10:01:09Z",
+                "completed": "2017-07-06T10:01:09Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4545.88"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "93.73"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "25413b76-031c-412a-84ff-953fc6bcd7e8",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "b1943c3d-ba4f-469a-b9ff-92c01c6b6e53",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_DC35E2",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T10:01:08Z",
+                "completed": "2017-07-06T10:01:08Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4452.15"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-15.88"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "933bc55f-e782-4974-8640-56d8f843bf5b",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "998561cd-7052-4845-afb0-4cb4c3c7b39d",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_34104C",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T10:01:07Z",
+                "completed": "2017-07-06T10:01:07Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4468.03"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "89.57"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "567fb61a-413e-4946-a10d-818ffa85b922",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "c670c784-6990-4008-9bac-df0f0564dcb8",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_AD735F",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T10:01:03Z",
+                "completed": "2017-07-06T10:01:03Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4378.46"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-75.85"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "0d1c92c3-2333-48ca-bdf1-b62dad47a2c2",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:40Z",
+                "completed": "2017-07-06T09:50:40Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4454.31"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "215.97"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "b06c14d7-17c3-4b3b-91fa-76a034dea157",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "c670c784-6990-4008-9bac-df0f0564dcb8",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_AD735F",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:40Z",
+                "completed": "2017-07-06T09:50:40Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3976.65"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-261.69"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "e27c5175-0ecb-426e-9b50-1ed808e299ea",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:39Z",
+                "completed": "2017-07-06T09:50:39Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4238.34"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "311.65"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "e9ac55fc-d03e-4331-8ea7-e6169b6d3795",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "b1943c3d-ba4f-469a-b9ff-92c01c6b6e53",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_DC35E2",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:31Z",
+                "completed": "2017-07-06T09:50:31Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3926.69"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-497.35"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "95e9c44e-2253-4fa1-9561-b0d01ebde19b",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "998561cd-7052-4845-afb0-4cb4c3c7b39d",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_34104C",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:29Z",
+                "completed": "2017-07-06T09:50:29Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4424.04"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "83.61"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "9be9bef2-c076-4feb-8952-300f98014766",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "c670c784-6990-4008-9bac-df0f0564dcb8",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_AD735F",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:28Z",
+                "completed": "2017-07-06T09:50:28Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4340.43"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-91.34"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "a534967d-d0d1-4b5e-82b7-4eca3254cedf",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "ce0bb4d5-9168-4f6e-a628-aa048abd1f9c",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_66D4A4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:26Z",
+                "completed": "2017-07-06T09:50:26Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4431.77"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "463.61"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "ecb88618-9c42-4212-b0d2-a0d9ce3244f0",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:50:25Z",
+                "completed": "2017-07-06T09:50:25Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3968.16"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "448.40"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "2380a0dd-9bc5-437f-9811-7adc1535465b",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "998561cd-7052-4845-afb0-4cb4c3c7b39d",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_34104C",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:19Z",
+                "completed": "2017-07-06T09:48:19Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3519.76"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "300.52"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "43ecdcba-d4a7-4ec2-89fb-4f149a1f8cd7",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:18Z",
+                "completed": "2017-07-06T09:48:18Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3339.35"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "277.01"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "3c223976-ce24-4b5f-b85e-40462a687ba7",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "98488937-1f6b-48c2-8c29-5f4c609375e7",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_B7F3B6",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:18Z",
+                "completed": "2017-07-06T09:48:18Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3219.24"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "156.90"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "b194acd0-5cc4-4a1d-ba05-c70e40dca30e",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "7c18a941-8a69-470a-911e-1385ef062b85",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_36EBC4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:17Z",
+                "completed": "2017-07-06T09:48:17Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3062.34"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "398.62"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "043565df-fb2f-4a2f-ab2d-6366b140b6a9",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "ce0bb4d5-9168-4f6e-a628-aa048abd1f9c",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_66D4A4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:15Z",
+                "completed": "2017-07-06T09:48:15Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2663.72"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "257.01"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "54a6a8db-5065-4be0-8595-34988543706b",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "7c18a941-8a69-470a-911e-1385ef062b85",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_36EBC4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:12Z",
+                "completed": "2017-07-06T09:48:12Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2406.71"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "24.73"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "5df5bd2b-83eb-4477-a1ae-28174a0e0c7f",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "4c7654f5-6ffa-42cf-8731-236fc868580f",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_798FC7",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:11Z",
+                "completed": "2017-07-06T09:48:11Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2381.98"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-405.77"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "2ef2a8c0-988d-43e5-9dcc-d318586d0e3a",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "6bb168f8-4c60-4384-bb79-14016424b457",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_B9DA83",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:10Z",
+                "completed": "2017-07-06T09:48:10Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2787.75"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-2.60"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "c43e60b2-2b72-4a8a-8d17-c195bad5e4cb",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "998561cd-7052-4845-afb0-4cb4c3c7b39d",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_34104C",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:08Z",
+                "completed": "2017-07-06T09:48:08Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2790.35"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "440.19"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "1094e342-f1ea-4aad-aefc-34e2103de63f",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "b1943c3d-ba4f-469a-b9ff-92c01c6b6e53",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_DC35E2",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:07Z",
+                "completed": "2017-07-06T09:48:07Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2350.16"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-44.96"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "b7a0c499-111c-4067-9e0f-ee2ad9df644b",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "6bb168f8-4c60-4384-bb79-14016424b457",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_B9DA83",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:05Z",
+                "completed": "2017-07-06T09:48:05Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2395.12"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-152.80"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "8754b5f7-103c-41db-b28f-3e4b7ef361b2",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "6bb168f8-4c60-4384-bb79-14016424b457",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_B9DA83",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:48:04Z",
+                "completed": "2017-07-06T09:48:04Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2547.92"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-410.07"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "36cd4e58-c835-4db3-9051-063a3d312c06",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "4c7654f5-6ffa-42cf-8731-236fc868580f",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_798FC7",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:46:17Z",
+                "completed": "2017-07-06T09:46:17Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2957.99"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-96.75"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "084586bb-b0a2-4327-8a6e-ae2463f16d1c",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:46:15Z",
+                "completed": "2017-07-06T09:46:15Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3054.74"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "335.06"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "63ca4bcc-91cf-432e-b467-23de3212be7b",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "c670c784-6990-4008-9bac-df0f0564dcb8",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_AD735F",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:46:14Z",
+                "completed": "2017-07-06T09:46:14Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "2719.68"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-441.54"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "fa8686e1-49a1-453b-8ec0-e6092535d82a",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "c670c784-6990-4008-9bac-df0f0564dcb8",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_AD735F",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:46:13Z",
+                "completed": "2017-07-06T09:46:13Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3161.22"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-49.43"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "82100887-755f-45f2-a1ba-1e1361fcce7d",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "eea57d68-b0ef-4ed6-b768-13195eef8b26",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_C35149",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:46:12Z",
+                "completed": "2017-07-06T09:46:12Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3210.65"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-138.47"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "5a264647-177a-4a20-a034-ca41ac6f37c7",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:46:10Z",
+                "completed": "2017-07-06T09:46:10Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3349.12"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "301.16"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "0567c0f4-11f0-49fe-915b-2405f15ccb5a",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "c670c784-6990-4008-9bac-df0f0564dcb8",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_AD735F",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:46:02Z",
+                "completed": "2017-07-06T09:46:02Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3047.96"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-291.91"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "bdf601c9-9059-4b96-bd00-7741f08e5069",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "b1943c3d-ba4f-469a-b9ff-92c01c6b6e53",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_DC35E2",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:21:40Z",
+                "completed": "2017-07-06T09:21:40Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3339.87"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-466.62"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "6a4016f0-61e1-4be8-ade5-5b94b969f7bc",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "b1943c3d-ba4f-469a-b9ff-92c01c6b6e53",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_DC35E2",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:21:39Z",
+                "completed": "2017-07-06T09:21:39Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3330.08"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-476.41"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "4bf08f53-241c-41d9-8124-ac92829bccb2",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "b1943c3d-ba4f-469a-b9ff-92c01c6b6e53",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_DC35E2",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:21:38Z",
+                "completed": "2017-07-06T09:21:38Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3511.30"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-264.70"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "517fa627-033f-4df4-aa5d-fe7c75219da1",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:21:37Z",
+                "completed": "2017-07-06T09:21:37Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3806.49"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "38.89"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "56a9b726-c9d3-490a-8c9e-85a8294b8113",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "7c18a941-8a69-470a-911e-1385ef062b85",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_36EBC4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:21:35Z",
+                "completed": "2017-07-06T09:21:35Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3776.00"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "185.97"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "933defe3-fee8-4928-aba5-25b6e7043d33",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:21:34Z",
+                "completed": "2017-07-06T09:21:34Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3767.60"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "177.57"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "809fc96c-ca0b-4767-b6fe-1fc7c938ee25",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "eea57d68-b0ef-4ed6-b768-13195eef8b26",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_C35149",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:52Z",
+                "completed": "2017-07-06T09:18:52Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3590.03"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-314.08"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "6a746ea8-fcaf-4dad-be65-e6618cb50bd8",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "6bb168f8-4c60-4384-bb79-14016424b457",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_B9DA83",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:51Z",
+                "completed": "2017-07-06T09:18:51Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3536.05"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-368.06"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "90196e7c-3651-4340-8d6c-0c682605c180",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "eea57d68-b0ef-4ed6-b768-13195eef8b26",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_C35149",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:49Z",
+                "completed": "2017-07-06T09:18:49Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3904.11"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-447.13"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "f9bc3eb3-4191-4d3a-b3e5-3afa1910cc40",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "6bb168f8-4c60-4384-bb79-14016424b457",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_B9DA83",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:48Z",
+                "completed": "2017-07-06T09:18:48Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3553.14"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-24.73"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "e73f0edb-d25b-4353-936d-4ba5915d6651",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "998561cd-7052-4845-afb0-4cb4c3c7b39d",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_34104C",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:47Z",
+                "completed": "2017-07-06T09:18:47Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4351.24"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "54.51"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "956af38c-e56c-4089-8692-a22f917255c9",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "c670c784-6990-4008-9bac-df0f0564dcb8",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_AD735F",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:46Z",
+                "completed": "2017-07-06T09:18:46Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3577.87"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-285.82"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "5191a197-211a-49c2-8bdb-a563bfcb46b9",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "ce0bb4d5-9168-4f6e-a628-aa048abd1f9c",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_66D4A4",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:45Z",
+                "completed": "2017-07-06T09:18:45Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4296.73"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "433.04"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "3936ae81-86c5-4bde-a1e4-c111445c17f5",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "4c7654f5-6ffa-42cf-8731-236fc868580f",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_798FC7",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:43Z",
+                "completed": "2017-07-06T09:18:43Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "3863.69"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-254.06"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "ab09322a-e672-4567-affa-7b0787d46aef",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "6bb168f8-4c60-4384-bb79-14016424b457",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_B9DA83",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:42Z",
+                "completed": "2017-07-06T09:18:42Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4117.75"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "-265.00"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        },
+        {
+            "id": "f8445422-7f37-4c22-9da1-48e1345cc122",
+            "this_account": {
+                "id": "001",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "holders": [
+                    {
+                        "name": "claired",
+                        "is_alias": false
+                    }
+                ],
+                "kind": null
+            },
+            "other_account": {
+                "id": "536ee483-3126-464a-a6c6-7b1d98fdb6f0",
+                "bank_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "account_routing": {
+                    "scheme": null,
+                    "address": null
+                },
+                "kind": "CURRENT",
+                "metadata": {
+                    "public_alias": "ALIAS_902CF1",
+                    "private_alias": null,
+                    "more_info": null,
+                    "URL": null,
+                    "image_URL": null,
+                    "open_corporates_URL": null,
+                    "corporate_location": null,
+                    "physical_location": null
+                }
+            },
+            "details": {
+                "type": "SANDBOX_TAN",
+                "description": "Good",
+                "posted": "2017-07-06T09:18:36Z",
+                "completed": "2017-07-06T09:18:36Z",
+                "new_balance": {
+                    "currency": "EUR",
+                    "amount": "4382.75"
+                },
+                "value": {
+                    "currency": "EUR",
+                    "amount": "61.04"
+                }
+            },
+            "metadata": {
+                "narrative": null,
+                "comments": [],
+                "tags": [],
+                "images": [],
+                "where": null
+            }
+        }
+    ]
 }
