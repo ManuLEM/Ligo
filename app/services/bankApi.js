@@ -12,7 +12,20 @@ app.service('bankApi', function($http){
       transactions: function(account_id){
         return {
           get: function(transaction_id){},
-          all: function(){
+          all: function(latest){
+            if (latest) {
+              return new Promise(function(resolve, reject) {
+                resolve([{
+                  "details": {
+                    "completed": latest.x,
+                    "new_balance": {
+                      "currency": "EUR",
+                      "amount": latest.y
+                    }
+                  }
+                }]);
+              });
+            }
             // return $http.get('app/mocks/transactions.json')
             return $http({
               method: 'GET',
@@ -29,10 +42,15 @@ app.service('bankApi', function($http){
             })
             .catch(function(err){
               console.error(err);
-              return $http.get('app/mocks/transactions.json')
-              .then(function(response) {
-                return response.data.transactions;
-              })
+              return [{
+                "details": {
+                  "completed": moment().format(),
+                  "new_balance": {
+                    "currency": "EUR",
+                    "amount": Math.round(Math.random()*250000)/100
+                  }
+                }
+              }]
             });
           },
           post: function(){}

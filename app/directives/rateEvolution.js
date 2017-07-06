@@ -1,6 +1,6 @@
 'use strict';
 
-app.directive('rateEvolution', function(){
+app.directive('rateEvolution', function(bankApi){
   return {
     template: '<div id="chart"></div>',
     replace: true,
@@ -14,14 +14,40 @@ app.directive('rateEvolution', function(){
       var key = null;
       var data = [];
       scope.transactions.forEach(function(elem){
-        ceil = Math.max(ceil, parseInt(elem.details.new_balance.amount) + 100);
+        ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 100);
       });
-      data = scope.transactions.map(function(elem){
-        return {
-          y: Math.round((ceil - parseInt(elem.details.new_balance.amount))/ceil*300, 2) / 100,
-          x: moment(elem.details.completed).unix()
+      var now = moment();
+      var seconds = 12;
+      var latest = scope.transactions[scope.transactions.length-1];
+      for (var i = 0; i < seconds; i++) {
+        var point = {}
+        if (i == 0) {
+          point = {
+            x: now.subtract(1, 'second').unix(),
+            y: Math.round((ceil - parseFloat(latest.details.new_balance.amount))/ceil*300, 2) / 100
+          }
         }
-      });
+        else {
+          var found = false;
+          var x = now.subtract(seconds-i, 'seconds').unix();
+          for (var transaction of scope.transactions) {
+            if (moment(transaction.details.completed).unix() != x) continue;
+            found = true;
+            point = {
+              x: x,
+              y: Math.round((ceil - parseFloat(transaction.details.new_balance.amount))/ceil*300, 2) / 100
+            }
+            break;
+          }
+          if (!found) {
+            point = {
+              y: data[i-1].y,
+              x: x
+            }
+          }
+        }
+        data.push(point);
+      }
       data.sort(function(a,b){
         if (a.x > b.x) return 1;
         if (a.x < b.x) return -1;
@@ -38,12 +64,7 @@ app.directive('rateEvolution', function(){
           enabled: false
         },
         xAxis: {
-          visible: false,
-          scrollbar: {
-            enabled: true
-          },
-          min: data[data.length-1].x - 70,
-          max: data[data.length-1].x
+          visible: false
         },
         yAxis: {
           visible: false,
@@ -52,10 +73,62 @@ app.directive('rateEvolution', function(){
         chart: {
           spacingLeft: 0,
           spacingRight: 0,
-          margin: [0, 50, 0, 0],
-          backgroundColor: 'transparent'
+          margin: [0, 50, 0, -5],
+          backgroundColor: 'transparent',
+          events: {
+            load: function () {
+              var series = this.series[0];
+              var i = 0;
+              setInterval(function () {
+                i++;
+                var latest = series.data[series.data.length-1];
+                var stagnate = (i%3 == Math.round(Math.random()*3)) ? false : latest;
+                bankApi().transactions().all(stagnate)
+                .then(function(data){
+                  var added = false;
+                  for (var i = 0; i < data.length; i++) {
+                    var elem = data[i];
+                    if (moment(elem.details.completed).unix() <= latest.x) break;
+                    added = true;
+                    ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 100);
+                    var y = Math.round((ceil - parseFloat(elem.details.new_balance.amount))/ceil*300, 2) / 100
+                    series.addPoint({
+                      x:moment(elem.details.completed).unix(),
+                      y:y
+                    },true,true);
+                  };
+                  if (!added) {
+                    series.addPoint({
+                      x:moment().unix(),
+                      y:latest.y
+                    },true,true);
+                  }
+                });
+              }, 1000);
+            }
+          }
         },
         plotOptions: {
+          areaspline: {
+            enableMouseTracking: false,
+            dataLabels: {
+              enabled: true,
+              color: '#89FFA4',
+              style: {
+                "fontSize": "14px",
+                "fontWeight": "bold",
+                "textOutline": "none"
+              },
+              className: "value",
+              useHTML: true,
+              formatter: function(){
+                if(this.point.index == this.series.data.length - 1) {
+                  return this.y
+                }
+                return null;
+              }
+            }
+          },
           series: {
             states: {
               hover: {
@@ -64,23 +137,8 @@ app.directive('rateEvolution', function(){
             }
           }
         },
-        tooltip: { enabled: false },
+        // tooltip: { enabled: false },
         series: [{
-          scrollbar: {
-            enabled: true,
-            barBackgroundColor: 'gray',
-            barBorderRadius: 7,
-            barBorderWidth: 0,
-            buttonBackgroundColor: 'gray',
-            buttonBorderWidth: 0,
-            buttonArrowColor: 'yellow',
-            buttonBorderRadius: 7,
-            rifleColor: 'yellow',
-            trackBackgroundColor: 'white',
-            trackBorderWidth: 1,
-            trackBorderColor: 'silver',
-            trackBorderRadius: 7
-          },
           dataGrouping: {
             smoothed: true,
             forced: true,
@@ -88,7 +146,8 @@ app.directive('rateEvolution', function(){
           },
           type: 'areaspline',
           marker: {
-            enabled:false
+            enabled:false,
+            fillColor: '#89FFA4'
           },
           data: data,
           lineColor: '#89FFA4',

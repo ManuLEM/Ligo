@@ -38,7 +38,9 @@ a.lend {
   right: 0;
   left: 0;
 }
-
+#chart .highcharts-label.highcharts-data-label.highcharts-data-label-color-0.valuehighcharts-tracker span {
+  left: 35px !important;
+}
 .image {
   position: relative;
   width: 100vw;
