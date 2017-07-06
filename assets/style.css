@@ -80,8 +80,8 @@ a.lend {
 }
 
 .check {
-  top: 50vh;
+  top: 50%;
   position: absolute;
-  left: 100px;
-  width: 200px;
+  left: 25%;
+  width: 50%;
 }
