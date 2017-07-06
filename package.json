@@ -11,6 +11,7 @@
     "http-server": "^0.10.0"
   },
   "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install",
     "start": "http-server"
   }
 }
