@@ -1,5 +1,5 @@
 <section>
-  <rate-evolution ng-if="transactions" transactions="transactions"></rate-evolution>
-  <button ng-click="changePotBalance(10)">Prêter 10€ sur 1 mois</button>
-  <button ng-click="changePotBalance(-10)">Prendre 10€</button>
+  <ligo-input ng-model="amount"></ligo-input>
+  <button ng-click="changePotBalance(amount)">Lend now</button>
+  <rate-evolution ng-if="transactions" ng-model="transactions"></rate-evolution>
 </section>

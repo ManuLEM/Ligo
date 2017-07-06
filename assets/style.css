@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  background: #2C3251;
+}
+header {
+  text-align: center;
+  border-bottom: 1px dotted rgba(255,255,255,0.3);
+  height: 50px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+header img {
+  height: 100%;
+}
