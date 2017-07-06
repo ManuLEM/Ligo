@@ -1,3 +1,5 @@
 <section>
-  <p>Hello world</p>
+  <rate-evolution ng-if="transactions" transactions="transactions"></rate-evolution>
+  <button ng-click="changePotBalance(10)">Prêter 10€ sur 1 mois</button>
+  <button ng-click="changePotBalance(-10)">Prendre 10€</button>
 </section>
