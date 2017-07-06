@@ -85,3 +85,24 @@ a.lend {
   left: 25%;
   width: 50%;
 }
+
+.taux {
+  z-index: 2;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100vw;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+.taux img {
+    position: relative;
+    top: 45%;
+    width: 20%;
+    left: 80%;
+}
