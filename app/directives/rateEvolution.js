@@ -30,7 +30,6 @@ app.directive('rateEvolution', function(){
           x: moment(elem.details.completed).unix()
         }
       });
-      console.log(data);
       data.sort(function(a,b){
         if (a.x > b.x) return 1;
         if (a.x < b.x) return -1;
