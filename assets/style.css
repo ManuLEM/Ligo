@@ -61,3 +61,27 @@ a.lend {
   background-color: #242945;
   min-height:270px;
 }
+
+.overlay {
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 124%;
+  bottom: 0;
+  top: 50px;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.5);
+  visibility:hidden;
+}
+
+.check {
+  top: 50vh;
+  position: absolute;
+  left: 100px;
+  width: 200px;
+}
