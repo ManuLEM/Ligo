@@ -6,8 +6,14 @@ app.constant('Config', {
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider.
   when('/', {
-    templateUrl: './app/templates/home.html',
+    templateUrl: './app/templates/index.html'
+  }).
+  when('/data', {
+    templateUrl: './app/templates/data.html',
     controller: 'homeController'
+  }).
+  when('/lending', {
+    templateUrl: './app/templates/lending.html'
   }).
   otherwise({
     redirectTo: '/'
