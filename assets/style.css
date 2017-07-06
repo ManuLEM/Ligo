@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   background: #2C3251;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 header {
   text-align: center;
@@ -11,4 +13,30 @@ header {
 }
 header img {
   height: 100%;
+}
+main, main > section {
+  height: 100%;
+}
+.transaction-inputs {
+  height: 40%;
+  display: block;
+}
+a.lend {
+  display: block;
+  color: #fff;
+  background: #FF7676;
+  text-decoration: none;
+  line-height: 45px;
+  width: 150px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+}
+#chart {
+  height: 270px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }

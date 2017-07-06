@@ -15,6 +15,7 @@ app.directive('rateEvolution', function(){
       var data = [];
       scope.transactions.forEach(function(elem){
         ceil = Math.max(ceil, parseInt(elem.details.new_balance.amount) + 100);
+      });
       data = scope.transactions.map(function(elem){
         return {
           y: Math.round((ceil - parseInt(elem.details.new_balance.amount))/ceil*300, 2) / 100,
@@ -41,7 +42,7 @@ app.directive('rateEvolution', function(){
           scrollbar: {
             enabled: true
           },
-          min: data[data.length-1].x - 200,
+          min: data[data.length-1].x - 70,
           max: data[data.length-1].x
         },
         yAxis: {
