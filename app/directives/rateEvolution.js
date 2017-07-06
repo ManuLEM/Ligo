@@ -8,15 +8,6 @@ app.directive('rateEvolution', function(){
       ngModel: '='
     },
     link: function(scope, elem){
-      setInterval(function(){
-        console.log("test");
-        setTimeout(function(){
-          chart.series[0].addPoint({
-            y: Math.round(Math.random()*300)/100,
-            x: moment()
-          });
-        })
-      }, 6000)
       scope.transactions = scope.ngModel;
       var ceil = 0;
       var transactionsByMin = {};
