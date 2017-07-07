@@ -17,13 +17,13 @@ app.directive('rateEvolution', function(bankApi){
         ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 100);
       });
       var now = moment();
-      var seconds = 12;
+      var seconds = 15;
       var latest = scope.transactions[scope.transactions.length-1];
       for (var i = 0; i < seconds; i++) {
         var point = {}
         if (i == 0) {
           point = {
-            x: now.subtract(1, 'second').unix(),
+            x: now.subtract(seconds, 'second').unix(),
             y: Math.round((ceil - parseFloat(latest.details.new_balance.amount))/ceil*300, 2) / 100
           }
         }
@@ -82,14 +82,14 @@ app.directive('rateEvolution', function(bankApi){
               setInterval(function () {
                 i++;
                 var latest = series.data[series.data.length-1];
-                var stagnate = (i%3 == Math.round(Math.random()*3)) ? false : latest;
-                bankApi().transactions().all(stagnate)
+                var stagnate = (i%3 == Math.round(Math.random()*3)) ? false : true;
+                bankApi().transactions().all(latest,stagnate)
                 .then(function(data){
                   var added = false;
                   for (var i = 0; i < data.length; i++) {
                     var elem = data[i];
                     if (moment(elem.details.completed).unix() <= latest.x) break;
-                    added = true;
+                    console.log(added);
                     ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 100);
                     var y = Math.round((ceil - parseFloat(elem.details.new_balance.amount))/ceil*300, 2) / 100
                     series.addPoint({
@@ -99,7 +99,7 @@ app.directive('rateEvolution', function(bankApi){
                   };
                   if (!added) {
                     series.addPoint({
-                      x:moment().unix(),
+                      x:moment().subtract(5, 'seconds').unix(),
                       y:latest.y
                     },true,true);
                   }

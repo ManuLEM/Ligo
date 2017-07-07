@@ -12,8 +12,8 @@ app.service('bankApi', function($http){
       transactions: function(account_id){
         return {
           get: function(transaction_id){},
-          all: function(latest){
-            if (latest) {
+          all: function(latest,stagnate){
+            if (stagnate) {
               return new Promise(function(resolve, reject) {
                 resolve([{
                   "details": {
@@ -42,12 +42,15 @@ app.service('bankApi', function($http){
             })
             .catch(function(err){
               console.error(err);
+              var max = latest.y + 200;
+              var min = latest.y - 200;
+              var amount = (latest) ? Math.floor(Math.random()*(max-min+1)+min) : Math.round(Math.random()*250000)/100;
               return [{
                 "details": {
-                  "completed": moment().format(),
+                  "completed": moment().subtract(2, 'seconds').format(),
                   "new_balance": {
                     "currency": "EUR",
-                    "amount": Math.round(Math.random()*250000)/100
+                    "amount": amount
                   }
                 }
               }]
