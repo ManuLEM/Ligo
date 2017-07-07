@@ -19,6 +19,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     templateUrl: './app/templates/lending2.html',
     controller: 'homeController'
   }).
+  when('/lending3', {
+    templateUrl: './app/templates/lending3.html'
+  }).
   when('/pay', {
     templateUrl: './app/templates/pay.html',
     controller: 'homeController'

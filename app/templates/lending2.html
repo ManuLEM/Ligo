@@ -1,15 +1,4 @@
 <html>
-  <head>
-    <script>
-      function c(){
-        document.getElementById('im').offsetHeight;
-        document.getElementById('ov').style.visibility = "visible";
-        setTimeout(function(){
-          document.getElementById('im').src = "./assets/img/check.png";
-        }, 3000);
-      }
-    </script>
-  </head>
   <body>
     <div class="image">
       <img width="100%" src="./assets/img/lending_process2-top.png" />
@@ -17,13 +6,10 @@
         <rate-evolution ng-if="transactions" ng-model="transactions"></rate-evolution>
       </div>
       <img width="100%" src="./assets/img/lending_process2-btm.png" />
-      <a class="link" onClick="c()" style="top: 89%;left: 0;width: 100%;height: 10%;"></a>
+      <a class="link" href="./#!/lending3" style="top: 89%;left: 0;width: 100%;height: 10%;"></a>
     </div>
     <div class="taux">
       <img src="./assets/img/taux.png" />
-    </div>
-    <div class="overlay" id="ov">
-      <img src="./assets/img/check.gif" id='im' class="check" />
     </div>
   </body>
 </html>
