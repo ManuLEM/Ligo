@@ -68,8 +68,7 @@ app.directive('rateEvolution', function(bankApi){
         },
         yAxis: {
           visible: false,
-          min: 0,
-          max: 3.8
+          min: 0
         },
         chart: {
           spacingLeft: 0,
