@@ -68,7 +68,8 @@ app.directive('rateEvolution', function(bankApi){
         },
         yAxis: {
           visible: false,
-          min: 0
+          min: 0,
+          max: 3.1
         },
         chart: {
           spacingLeft: 0,
@@ -112,8 +113,8 @@ app.directive('rateEvolution', function(bankApi){
           areaspline: {
             enableMouseTracking: false,
             dataLabels: {
-              enabled: true,
-              color: '#89FFA4',
+              enabled: false,
+              color: '#fff',
               style: {
                 "fontSize": "14px",
                 "fontWeight": "bold",
@@ -123,7 +124,7 @@ app.directive('rateEvolution', function(bankApi){
               useHTML: true,
               formatter: function(){
                 if(this.point.index == this.series.data.length - 1) {
-                  return this.y
+                  return this.y+'%'
                 }
                 return null;
               }
