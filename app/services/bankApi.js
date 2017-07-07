@@ -26,8 +26,8 @@ app.service('bankApi', function($http){
                 }]);
               });
             }
-            var max = (latest) ? latest.y + 200 : 50000;
-            var min = (latest) ? latest.y - 200 : 40000;
+            var max = (latest) ? latest.y + 100 : 50000;
+            var min = (latest) ? latest.y - 300 : 40000;
             var amount = (latest) ? Math.floor(Math.random()*(max-min+1)+min) : Math.round(Math.random()*25000)/100;
             // return $http.get('app/mocks/transactions.json')
             return $http({
@@ -41,13 +41,12 @@ app.service('bankApi', function($http){
               }
             })
             .then(function(response) {
-              console.log('call');
               return [{
                 "details": {
                   "completed": moment().subtract(2, 'seconds').format(),
                   "new_balance": {
                     "currency": "EUR",
-                    "amount": amount
+                    "amount": ""+amount
                   }
                 }
               }]
@@ -60,7 +59,7 @@ app.service('bankApi', function($http){
                   "completed": moment().subtract(2, 'seconds').format(),
                   "new_balance": {
                     "currency": "EUR",
-                    "amount": amount
+                    "amount": ""+amount
                   }
                 }
               }]

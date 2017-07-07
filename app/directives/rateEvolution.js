@@ -14,7 +14,7 @@ app.directive('rateEvolution', function(bankApi){
       var key = null;
       var data = [];
       scope.transactions.forEach(function(elem){
-        ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 100);
+        ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 1000);
       });
       var now = moment();
       var seconds = 15;
@@ -69,7 +69,7 @@ app.directive('rateEvolution', function(bankApi){
         yAxis: {
           visible: false,
           min: 0,
-          max: 3.1
+          max: 3.8
         },
         chart: {
           spacingLeft: 0,
@@ -90,8 +90,7 @@ app.directive('rateEvolution', function(bankApi){
                   for (var i = 0; i < data.length; i++) {
                     var elem = data[i];
                     if (moment(elem.details.completed).unix() <= latest.x) break;
-                    console.log(added);
-                    ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 100);
+                    ceil = Math.max(ceil, parseFloat(elem.details.new_balance.amount) + 1000);
                     var y = Math.round((ceil - parseFloat(elem.details.new_balance.amount))/ceil*300, 2) / 100
                     series.addPoint({
                       x:moment(elem.details.completed).unix(),
